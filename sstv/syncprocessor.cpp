@@ -982,6 +982,7 @@ bool  syncProcessor::createModeBase()
   case MC180N:
     currentModePtr=new modeRGB(currentMode,RXSTRIPE,false,false);
     break;
+  case USSTV:
   case FAX480:
   case BW8:
   case BW12:

@@ -53,6 +53,7 @@ enum esstvMode
   P3,
   P5,
   P7,
+  USSTV,
   BW8,
   BW12,
   BW480,

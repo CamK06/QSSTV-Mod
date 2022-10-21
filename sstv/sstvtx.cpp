@@ -133,6 +133,7 @@ bool sstvTx::create(esstvMode m,DSPFLOAT clock)
     currentMode=new modeRGB(m,TXSTRIPE,true,false);
     break;
   case FAX480:
+  case USSTV:
   case BW8:
   case BW12:
   case BWHD:

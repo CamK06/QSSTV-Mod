@@ -23,6 +23,7 @@ QMAKE_CXXFLAGS_RELEASE += -O3 -Wno-implicit-fallthrough -Wno-psabi
 INCLUDEPATH += config dispatch drmrx drmtx dsp editor logbook mainwidgets rig scope sound sstv utils widgets xmlrpc videocapt
 
 CONFIG += link_pkgconfig
+CONFIG += release
 PKGCONFIG += libopenjp2
 TARGET = qsstv
 
